@@ -1,0 +1,4 @@
+name: blog
+encoding: utf-8
+markdown: redcarpet
+highlighter: pygments
