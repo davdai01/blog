@@ -4,6 +4,7 @@ markdown: redcarpet
 highlighter: pygments
 permalink: pretty
 exclude: ['CNAME','README.md']
+paginate: 10
 defaults:
   -
     scope:
