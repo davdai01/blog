@@ -1,3 +1,3 @@
+Hello There! This is my first post. 
 
-Content here
-
+This site is powered by [Jekyll](http://jekyllrb.com) and [Github pages](https://pages.github.com)
