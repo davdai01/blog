@@ -83,10 +83,16 @@ h6, .h6 {
   padding-bottom: 20px;
 }
 .blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: normal;
+  margin-bottom: 2em;
+  font-weight: bold;
+  color: #369;
+}
+.blog-title a {
+  color: #369;
+  text-decoration: none;
+}
+a:visited {
+  color: #a0a;
 }
 .blog-description {
   font-size: 20px;
