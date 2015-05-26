@@ -1,7 +1,7 @@
 ---
 title: Vim NERDTree z/OS Plugin
 ---
-As a Vim user and a IBM mainframe user, I'd like to use to edit mainframe files,
+As a Vim user and a IBM mainframe user, I'd like to use Vim to edit mainframe files,
 so I wrote a Vim Plugin for this purpose
 Once installed in Vim, we can choose to open any file (in PDS or Unix file
 system) and edit it. Changes will be automatically synced to mainframe when you
