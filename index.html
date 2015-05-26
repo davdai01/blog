@@ -17,11 +17,11 @@ active_nav: Blog
 <nav>
   <ul class="pager">
     {% if paginator.next_page %}
-      <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older <span aria-hidden="ture">&rarr;</span></a></li>
+      <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older <span aria-hidden="ture">&rarr;</span></a></li>
     {% endif %}
 
     {% if paginator.previous_page %}
-      <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span>&larr;</span> Newer</a></li>
+      <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span>&larr;</span> Newer</a></li>
     {% endif %}
   </ul>
   <!-- <div class="pagination"> -->
