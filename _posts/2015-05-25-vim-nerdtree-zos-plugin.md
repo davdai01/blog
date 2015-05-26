@@ -1,1 +1,1 @@
-= vim nerdtree zos plugin
+vim nerdtree zos plugin
