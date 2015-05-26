@@ -6,9 +6,9 @@ active_nav: Blog
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <div class="row post">
-    <div class="col-sm-3 post-date">{{ post.date | date_to_string }}</div>
-    <div class="col-sm-9 col-sm-offset-1 post-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+  <div class="row">
+    <div class="col-sm-3"><small>{{ post.date | date_to_string }}<small></div>
+    <div class="col-sm-9"><a href="{{ post.url }}">{{ post.title }}</a></div>
   </div>
 {% endfor %}
 
