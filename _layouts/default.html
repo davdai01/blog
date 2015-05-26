@@ -9,12 +9,12 @@
     <div class="collapsse nabar-collapse">
       <!-- <ul class="nav navbar&#45;nav navbar&#45;right"> -->
       <ul class="nav navbar-nav">
-        {% if active_nav == "Blog" %}
+        {% if page.active_nav == "Blog" %}
           <li class="active"><a href="/">Blog</a></li>
         {% else %}
           <li><a href="/">Blog</a></li>
         {% endif %}
-        {% if active_nav == "About" %}
+        {% if page.active_nav == "About" %}
           <li class="active"><a href="/about">About</a></li>
         {% else %}
           <li><a href="/about">About</a></li>
