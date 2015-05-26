@@ -9,4 +9,4 @@ save it in Vim. Furthermore, if it's for JCL file, we will be able to submit the
 JCL to mainframe directly from Vim using command :JCLSubmit
 ![screenshot]({{site.url}}/images/vim-nerdtree-zos-screenshot.jpg) 
 
-You can check my github repo at [here](https://github.com/davdai01/nerdtree-zos-plugin)
+You can check my github repo [here](https://github.com/davdai01/nerdtree-zos-plugin)
