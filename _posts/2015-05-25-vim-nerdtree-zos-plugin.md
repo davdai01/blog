@@ -7,6 +7,7 @@ Once installed in Vim, we can choose to open any file (in PDS or Unix file
 system) and edit it. Changes will be automatically synced to mainframe when you
 save it in Vim. Furthermore, if it's for JCL file, we will be able to submit the
 JCL to mainframe directly from Vim using command :JCLSubmit
-![screenshot]({{site.url}}/images/vim-nerdtree-zos-screenshot.jpg) 
+{% include image.html url="/images/vim-nerdtree-zos-screenshot.jpg" description="screenshot" %}
+
 
 You can check my github repo [here](https://github.com/davdai01/nerdtree-zos-plugin)
